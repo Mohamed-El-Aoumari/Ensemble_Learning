@@ -8,23 +8,26 @@ Ce projet explore l'apprentissage ensembliste appliqué à la classification d'i
 Email : mohammedelaoumari@gmail.com
 
 ## Prérequis
-Avant d'exécuter le projet, assurez-vous d'avoir installé les bibliothèques suivantes :
+Avant d'exécuter le projet, assurez-vous d'avoir installé les bibliothèques nécessaires.
 
 ```bash
-pip install numpy matplotlib scikit-learn pickle-mixin
+pip install -r requirements.txt
 ```
 
 ## Installation et Exécution
 1. Clonez ce dépôt :
    ```bash
    git clone <URL_DU_DEPOT>
-   cd <nom_du_dossier>
    ```
-2. Ouvrez le fichier `main.ipynb` avec Jupyter Notebook ou Jupyter Lab :
+2. Installez les dépendances :
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ouvrez le fichier `main.ipynb` avec Jupyter Notebook :
    ```bash
    jupyter notebook main.ipynb
    ```
-3. Exécutez les cellules dans l'ordre pour importer les données, entraîner les modèles et visualiser les résultats.
+4. Exécutez les cellules dans l'ordre pour importer les données, entraîner les modèles et visualiser les résultats.
 
 ## Détails du Projet
 - **Données utilisées** : Images issues de la base cordelDB (490 images, classes : voiture & bateau).
@@ -42,7 +45,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 print("X_train:", X_train.shape, "X_test:", X_test.shape)
 ```
 
+
 ## Contribution
 Toute contribution est la bienvenue. Vous pouvez soumettre une pull request ou contacter l'auteur par email.
-
-
