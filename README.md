@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Installation et Exécution
 1. Clonez ce dépôt :
    ```bash
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/Mohamed-El-Aoumari/Ensemble_Learning.git
    ```
 2. Installez les dépendances :
    ```bash
