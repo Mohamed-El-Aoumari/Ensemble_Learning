@@ -38,12 +38,6 @@ pip install -r requirements.txt
   - **Decision Tree**
 - **Visualisation des performances** : Courbes de précision pour chaque modèle.
 
-## Exemples de Code
-Séparation des données :
-```python
-X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
-print("X_train:", X_train.shape, "X_test:", X_test.shape)
-```
 
 
 ## Contribution
