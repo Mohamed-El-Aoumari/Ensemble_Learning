@@ -42,20 +42,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 print("X_train:", X_train.shape, "X_test:", X_test.shape)
 ```
 
-Optimisation du SVM :
-```python
-C_values = [0.1, 1, 10, 100]
-kernels = ['linear', 'rbf', 'poly']
-
-for k in kernels:
-    for c in C_values:
-        model = svm.SVC(C=c, kernel=k)
-        model.fit(X_train, y_train)
-```
-
 ## Contribution
 Toute contribution est la bienvenue. Vous pouvez soumettre une pull request ou contacter l'auteur par email.
 
-## Licence
-Ce projet est sous licence MIT.
 
